@@ -1,0 +1,15 @@
+{
+  parserClass="com.imperzer0.metapython.metapython.parser.MetaPythonParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+
+  psiClassPrefix="MetaPython"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.imperzer0.metapython.metapython.psi"
+  psiImplPackage="com.imperzer0.metapython.metapython.impl"
+
+  elementTypeHolderClass="com.imperzer0.metapython.metapython.MetaPythonTypes"
+  elementTypeClass="com.imperzer0.metapython.metapython.psi.MetaPythonElement"
+  tokenTypeClass="com.imperzer0.metapython.metapython.psi.MetaPythonToken"
+}
+
